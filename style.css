@@ -804,3 +804,17 @@ main {
   object-fit: cover;
   background: #000;
 }
+
+/* Skill groups */
+.skill-group + .skill-group {
+  margin-top: 2rem;
+}
+
+.skill-group__heading {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--md-sys-color-primary);
+}
