@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upstat Beta · Rahul Rawat</title>
+  <meta name="description" content="Try the Upstat beta: fitness, nutrition and habit tracker. Install on iPhone with TestFlight or on Android with the APK." />
+  <meta name="theme-color" content="#0b57d0" />
+  <link rel="icon" type="image/png" href="assets/upstat-logo.png" />
+  <link rel="apple-touch-icon" href="assets/upstat-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,0" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-bar" id="app-bar">
+    <a class="app-bar__logo" href="index.html">
+      <span class="app-bar__logo-mark">RR</span>
+      <span class="app-bar__logo-text">Rahul Rawat</span>
+    </a>
+    <nav class="app-bar__nav">
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" class="icon-button" aria-label="Toggle dark mode">
+      <span class="material-symbols-rounded">dark_mode</span>
+    </button>
+  </header>
+
+  <main>
+    <a class="back-link" href="index.html#projects">
+      <span class="material-symbols-rounded">arrow_back</span> Back to projects
+    </a>
+
+    <!-- Intro -->
+    <section class="app-hero reveal">
+      <img class="project__icon project__icon--logo app-hero__icon" src="assets/upstat-logo.png" alt="Upstat logo" width="64" height="64" />
+      <span class="project__period">Public beta · iOS &amp; Android</span>
+      <h1 class="app-hero__title">Upstat</h1>
+      <p class="hero__role">Fitness, nutrition and habit tracker</p>
+      <p class="hero__tagline">
+        Upstat turns daily health habits into a game. Log meals, workouts,
+        sleep, water and habits, and earn XP, levels, badges and personal
+        records for staying consistent.
+      </p>
+      <div class="project__tags">
+        <span class="chip">Flutter</span>
+        <span class="chip">Firebase</span>
+        <span class="chip">iOS · Android</span>
+      </div>
+      <div class="hero__actions">
+        <a class="button button--filled" href="#ios">
+          <span class="material-symbols-rounded">phone_iphone</span> I have an iPhone
+        </a>
+        <a class="button button--outlined" href="#android">
+          <span class="material-symbols-rounded">android</span> I have an Android
+        </a>
+      </div>
+      <p class="app-hero__hint">
+        <span class="material-symbols-rounded">info</span>
+        On a computer? Open this page on your phone to install.
+      </p>
+    </section>
+
+    <!-- iOS -->
+    <section id="ios" class="section reveal">
+      <div class="section__heading">
+        <span class="section__eyebrow">iPhone</span>
+        <h2 class="section__title">Install with TestFlight</h2>
+        <p class="section__lead">
+          TestFlight is Apple's free app for trying apps before they reach
+          the App Store. It takes about two minutes.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li class="step card card--filled">
+          <span class="step__num">1</span>
+          <div>
+            <h3 class="step__title">Get the TestFlight app</h3>
+            <p class="step__text">
+              On your iPhone, open the App Store, search for
+              <strong>TestFlight</strong> and tap <strong>Get</strong>. It is
+              made by Apple and is free.
+            </p>
+            <a class="button button--text" href="https://apps.apple.com/app/testflight/id899247664" target="_blank" rel="noopener">
+              <span class="material-symbols-rounded">open_in_new</span> Open TestFlight in App Store
+            </a>
+          </div>
+        </li>
+        <li class="step card card--filled">
+          <span class="step__num">2</span>
+          <div>
+            <h3 class="step__title">Tap the invite link</h3>
+            <p class="step__text">
+              Come back to this page on your iPhone and tap the button below.
+              It opens TestFlight with Upstat ready to go.
+            </p>
+            <a class="button button--filled" data-link="testflight" href="#" target="_blank" rel="noopener">
+              <span class="material-symbols-rounded">rocket_launch</span> Join the Upstat beta
+            </a>
+          </div>
+        </li>
+        <li class="step card card--filled">
+          <span class="step__num">3</span>
+          <div>
+            <h3 class="step__title">Accept and install</h3>
+            <p class="step__text">
+              In TestFlight, tap <strong>Accept</strong>, then
+              <strong>Install</strong>. Upstat appears on your home screen
+              like any other app.
+            </p>
+          </div>
+        </li>
+        <li class="step card card--filled">
+          <span class="step__num">4</span>
+          <div>
+            <h3 class="step__title">Stay up to date</h3>
+            <p class="step__text">
+              New versions show up in TestFlight. Tap <strong>Update</strong>
+              when you see one. To send feedback, take a screenshot while
+              using Upstat and tap <strong>Share Beta Feedback</strong>.
+            </p>
+          </div>
+        </li>
+      </ol>
+
+      <details class="faq">
+        <summary>Something not working?</summary>
+        <ul>
+          <li><strong>"This beta is full" or "not accepting testers":</strong> the tester limit was reached. Reach out and I'll make room.</li>
+          <li><strong>The link opens a web page instead of TestFlight:</strong> install TestFlight first (step 1), then tap the link again.</li>
+          <li><strong>"Requires a newer iOS":</strong> update your iPhone in Settings &gt; General &gt; Software Update.</li>
+          <li><strong>The app stopped opening:</strong> beta builds expire after 90 days. Open TestFlight and install the latest version.</li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- Android -->
+    <section id="android" class="section reveal">
+      <div class="section__heading">
+        <span class="section__eyebrow">Android</span>
+        <h2 class="section__title">Install the APK</h2>
+        <p class="section__lead">
+          An APK is the install file for an Android app. Download it on your
+          phone and open it to install.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li class="step card card--filled">
+          <span class="step__num">1</span>
+          <div>
+            <h3 class="step__title">Download the file</h3>
+            <p class="step__text">Tap the button below on your Android phone.</p>
+            <a class="button button--filled" data-link="apk" href="#" download>
+              <span class="material-symbols-rounded">download</span> Download APK
+            </a>
+          </div>
+        </li>
+        <li class="step card card--filled">
+          <span class="step__num">2</span>
+          <div>
+            <h3 class="step__title">Open it</h3>
+            <p class="step__text">
+              When the download finishes, tap <strong>Open</strong> in the
+              notification, or find <strong>upstat.apk</strong> in your
+              Files or Downloads app.
+            </p>
+          </div>
+        </li>
+        <li class="step card card--filled">
+          <span class="step__num">3</span>
+          <div>
+            <h3 class="step__title">Allow the install</h3>
+            <p class="step__text">
+              Android may say apps from this source aren't allowed. Tap
+              <strong>Settings</strong>, turn on
+              <strong>Allow from this source</strong>, then go back.
+            </p>
+          </div>
+        </li>
+        <li class="step card card--filled">
+          <span class="step__num">4</span>
+          <div>
+            <h3 class="step__title">Tap Install</h3>
+            <p class="step__text">
+              If Google Play Protect warns that the app is unrecognized, tap
+              <strong>More details</strong> and then
+              <strong>Install anyway</strong>. This shows for any app not
+              downloaded from the Play Store.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section reveal">
+      <div class="contact card card--filled">
+        <span class="section__eyebrow">Feedback</span>
+        <h2 class="section__title">Tried it? Tell me what you think</h2>
+        <p class="contact__text">
+          Bugs, ideas, or anything that felt confusing. Every bit of feedback
+          helps make Upstat better.
+        </p>
+        <div class="contact__actions">
+          <a class="button button--filled" href="mailto:rahulrwt0412@gmail.com?subject=Upstat%20beta%20feedback">
+            <span class="material-symbols-rounded">send</span> Send feedback
+          </a>
+          <a class="button button--outlined" href="index.html">
+            <span class="material-symbols-rounded">home</span> Back to portfolio
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Rahul Rawat · Designed with Material 3</p>
+  </footer>
+
+  <script>
+    // Paste the links here when they're ready. Empty = button shows "coming soon".
+    // testflight: public link from App Store Connect > TestFlight > External Testing, e.g. "https://testflight.apple.com/join/XXXXXXXX"
+    // apk: always points at the newest GitHub Release. To ship a new build, create a new release with the file named upstat.apk; no link change needed.
+    const UPSTAT_LINKS = {
+      testflight: "https://testflight.apple.com/join/PajKVXHN",
+      apk: "https://github.com/rahuldev0412/portfolio/releases/latest/download/upstat.apk",
+    };
+
+    document.querySelectorAll("[data-link]").forEach((el) => {
+      const url = UPSTAT_LINKS[el.dataset.link];
+      if (url) {
+        el.href = url;
+      } else {
+        el.removeAttribute("href");
+        el.removeAttribute("download");
+        el.classList.add("button--disabled");
+        el.setAttribute("aria-disabled", "true");
+        el.lastChild.textContent = " Link coming soon";
+      }
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
