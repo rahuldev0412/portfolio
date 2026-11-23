@@ -803,6 +803,7 @@ main {
 .project__icon--logo {
   object-fit: cover;
   background: #000;
+  box-shadow: 0 0 0 1px var(--md-sys-color-outline-variant);
 }
 
 /* Skill groups */
